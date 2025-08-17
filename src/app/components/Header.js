@@ -49,11 +49,11 @@ export default function Header() {
         showNav ? "nav-visible" : "nav-hidden"
       }`}
     >
-      <nav className="navbar navbar-expand-md glass-header">
+      <nav className="navbar navbar-expand-lg glass-header">
         <div className="px-lg-5 px-3 d-flex justify-content-between w-100">
           {/* Logo */}
           <Link href="/" className="navbar-brand py-2">
-            <Image src={logo} alt="Logo" width={91} height={40} priority />
+            <Image src={logo} alt="Logo" width={71} height={28} priority />
           </Link>
 
           {/* Hamburger for mobile */}
@@ -97,7 +97,7 @@ export default function Header() {
       >
         <div className="offcanvas-header px-lg-5 px-3">
           <Link href="/" className="navbar-brand py-2">
-            <Image src={logo} alt="Logo" width={91} height={40} />
+            <Image src={logo} alt="Logo" width={71} height={28} priority />
           </Link>
           <button
             type="button"
