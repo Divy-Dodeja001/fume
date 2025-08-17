@@ -79,9 +79,11 @@ export default function Home() {
           </div>
         </div>
         <div className="position-absolute hero-description px-lg-5 px-3">
-          <Link href={"/"} className="mb-5">
-            <Image src={logo} width="137" height="60" alt="fume-logo" />
-          </Link>
+          <div className="mb-3">
+            <Link href={"/"} className="">
+              <Image src={logo} width="137" height="60" alt="fume-logo" />
+            </Link>
+          </div>
           <br></br>
           <h1 className="text-light mb-4">Savour the Night</h1>
           <p className="text-light mb-5">
