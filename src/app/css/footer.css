@@ -1,0 +1,21 @@
+.footer-background {
+  background-image: url("/desktopFooterBackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-link-menu {
+  a,
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-background {
+    background-image: url("/mobileFooterBackground.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
