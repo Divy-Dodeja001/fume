@@ -49,7 +49,7 @@ export default function Header() {
         showNav ? "nav-visible" : "nav-hidden"
       }`}
     >
-      <nav className="navbar navbar-expand-lg glass-header">
+      <nav className="navbar navbar-expand-md glass-header">
         <div className="px-lg-5 px-3 d-flex justify-content-between w-100">
           {/* Logo */}
           <Link href="/" className="navbar-brand py-2">

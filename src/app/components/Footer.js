@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="footer-background px-3 px-lg-5 py-4 py-lg-4">
         <div className="row my-3">
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-4">
             <div>
               <div>
                 <Link href={"/"}>
@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4 d-lg-block d-none"></div>
+          <div className="col-12 col-md-3 d-md-block d-none"></div>
           <div className="col-12 col-md-3 footer-link-menu">
             <div
               className="d-flex align-items-center text-light mb-4"
@@ -109,7 +109,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-2 d-lg-block d-none"></div>
+          <div className="col-12 col-md-2 d-md-block d-none"></div>
         </div>
       </div>
       <div className="py-1 px-3 px-lg-5">

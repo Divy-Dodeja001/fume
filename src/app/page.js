@@ -47,12 +47,12 @@ export default function Home() {
           />
         </picture>
         <div
-          className="d-none d-lg-block position-absolute w-100"
+          className="d-none d-md-block position-absolute w-100"
           style={{ top: "5%" }}
         >
           <div
             className="px-lg-5 px-3 d-flex text-light align-items-center"
-            style={{ gap: "4em", fontSize: "1.2em" }}
+            style={{ gap: "3em", fontSize: "1em" }}
           >
             <Link
               href={"/"}
@@ -92,7 +92,7 @@ export default function Home() {
             surrounded by deep beats, moody lights, and moments that linger
           </p>
           <div
-            className="d-flex flex-column flex-lg-row"
+            className="d-flex flex-column flex-md-row"
             style={{ gap: "1.5em" }}
           >
             <a
@@ -103,7 +103,7 @@ export default function Home() {
                 border: "none",
                 width: "fit-content",
               }}
-              className="btn btn-light rounded-5 px-4 pb-2"
+              className="btn btn-light rounded-5 px-4 pb-2 text-light"
             >
               Browse our Menu
             </a>{" "}
@@ -152,7 +152,7 @@ export default function Home() {
                 />
               </picture>
               <div
-                className="d-none d-lg-block position-absolute text-light"
+                className="d-none d-md-block position-absolute text-light"
                 style={{ bottom: "3%", left: "4%" }}
               >
                 <p className="heading-font mb-1" style={{ fontSize: "32px" }}>
@@ -231,7 +231,7 @@ export default function Home() {
             <p className="px-lg-5">
               This is Fume in its element. A bar that moves with the music, a
               lounge that lives for
-              <br className="d-none d-lg-block" /> the after-hours. What you see
+              <br className="d-none d-md-block" /> the after-hours. What you see
               here is what the night feels like
             </p>
           </div>
@@ -305,6 +305,10 @@ export default function Home() {
             breakpoints={{
               0: { slidesPerView: 1.3, spaceBetween: 12 },
               768: {
+                slidesPerView: 3,
+                spaceBetween: 24,
+              },
+              1100: {
                 slidesPerView: 4,
                 spaceBetween: 24,
               },
@@ -337,7 +341,7 @@ export default function Home() {
                     “The service was great... I will be a regular... they
                     deserve 5 stars.”
                   </p>
-                  <br className="d-lg-none"></br>
+                  <br className="d-md-none"></br>
                   <p className="fw-bold">Lucas Meyer</p>
                 </div>
               </div>
@@ -431,7 +435,7 @@ export default function Home() {
                     “Beautiful spot for shisha in Port Forum, right on the
                     dock.”
                   </p>
-                  <br className="d-lg-none"></br>
+                  <br className="d-md-none"></br>
                   <p className="fw-bold">Ala Al-Mubarak</p>
                 </div>
               </div>
@@ -441,7 +445,7 @@ export default function Home() {
       </div>
       {/* book seats */}
       <div className="px-lg-5 px-3 res-section py-lg-5 my-lg-5 my-4 py-4">
-        <div className="d-flex align-items-center flex-column flex-lg-row">
+        <div className="d-flex align-items-center flex-column flex-md-row">
           <div className="col-12 col-md-5 mb-5 mb-lg-0 text-center text-md-start">
             <h3 className="heading-font mb-4">
               We’ve saved<br></br>you a seat!
@@ -473,7 +477,7 @@ export default function Home() {
       </div>{" "}
       {/* find us on maps */}
       <div className="px-lg-5 px-3 maps-section py-lg-5 my-lg-5 my-4 py-4">
-        <div className="d-flex align-items-center flex-column flex-lg-row">
+        <div className="d-flex align-items-center flex-column flex-md-row">
           <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
             <h3 className="heading-font mb-4">Find us on Google Maps</h3>
             <p className="mb-3">
