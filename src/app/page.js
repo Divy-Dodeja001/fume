@@ -85,7 +85,7 @@ export default function Home() {
             </Link>
           </div>
           <br></br>
-          <h1 className="text-light mb-4">Savour the Night</h1>
+          <h1 className="text-light mb-4 heading-font">Savour the Night</h1>
           <p className="text-light mb-5">
             Premium shisha, curated cocktails, and unforgettable nights,
             <br className="d-md-block d-none"></br>
