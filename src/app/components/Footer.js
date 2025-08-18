@@ -12,12 +12,7 @@ const Footer = () => {
             <div>
               <div>
                 <Link href={"/"}>
-                  <Image
-                    src={logo}
-                    width="91px"
-                    height="40px"
-                    alt="fume-logo"
-                  />
+                  <Image src={logo} width="91" height="40" alt="fume-logo" />
                 </Link>
               </div>
               <div className="mt-3 mb-5 mb-lg-3">
@@ -43,13 +38,12 @@ const Footer = () => {
                 />
               </div>
               <a
-                href="https://maps.app.goo.gl/t39tsQgYiB3nZUah7"
+                href="https://maps.app.goo.gl/aHyvpzQ5sqXfZW2P6"
                 target="_blank"
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
               >
-                Port Fòrum, Carrer del Port Esportiu, 9 08930 Sant Adrià de
-                Besòs, Barcelona
+                Tv. Conceição da Glória 7A, 1250-092 Lisboa
               </a>
             </div>
             <div
@@ -65,11 +59,11 @@ const Footer = () => {
                 />
               </div>
               <a
-                href="tel:+34933070931"
+                href="tel:+351920366185"
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
               >
-                +34 933 07 09 31
+                +351 920 366 185
               </a>
             </div>
             <div
@@ -85,11 +79,11 @@ const Footer = () => {
                 />
               </div>
               <a
-                href="mailto:info@fumelounge.com"
+                href="mailto:fumeshishalounge@gmail.com"
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
               >
-                info@fumelounge.com
+                fumeshishalounge@gmail.com
               </a>
             </div>
             <div
@@ -105,7 +99,9 @@ const Footer = () => {
                 />
               </div>
               <p className="mb-0">
-                Open daily<br></br>3:00 PM - 3:00 AM
+                Open daily<br></br>Monday – Thursday & Sunday: 2:00 PM – 2:00 AM
+                <br></br>
+                Friday – Saturday: 2:00 PM – 3:00 AM
               </p>
             </div>
           </div>

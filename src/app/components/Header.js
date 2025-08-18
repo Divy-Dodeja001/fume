@@ -73,13 +73,22 @@ export default function Header() {
               {navLinks.map(({ href, label, external }) => (
                 <li className="nav-item" key={label}>
                   {external ? (
-                    <a href={href} target="_blank" className="nav-link">
+                    <a
+                      href={href}
+                      target="_blank"
+                      className="nav-link"
+                      style={{ fontSize: "0.85em" }}
+                    >
                       {label}
                     </a>
                   ) : (
-                    <Link href={href} className="nav-link">
+                    <a
+                      href={href}
+                      className="nav-link"
+                      style={{ fontSize: "0.85em" }}
+                    >
                       {label}
-                    </Link>
+                    </a>
                   )}
                 </li>
               ))}
@@ -90,7 +99,7 @@ export default function Header() {
 
       {/* Mobile Offcanvas Drawer */}
       <div
-        className="offcanvas offcanvas-end glass-header"
+        className="offcanvas offcanvas-end"
         tabIndex="-1"
         id="mobileMenu"
         aria-labelledby="mobileMenuLabel"
@@ -115,13 +124,9 @@ export default function Header() {
                     {label}
                   </a>
                 ) : (
-                  <Link
-                    href={href}
-                    className="nav-link"
-                    data-bs-dismiss="offcanvas"
-                  >
+                  <a href={href} className="nav-link">
                     {label}
-                  </Link>
+                  </a>
                 )}
               </li>
             ))}

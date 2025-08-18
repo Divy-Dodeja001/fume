@@ -1,18 +1,11 @@
 .glass-header {
-  background: black !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  background: black;
 }
 
 .nav-link {
   color: white !important;
   font-weight: 500;
   transition: color 0.3s ease;
-}
-
-.offcanvas-body {
-  overflow-y: visible;
 }
 
 .nav-link:hover {
@@ -32,11 +25,21 @@
 .btn-close {
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414'/%3e%3c/svg%3e")
     center/1em auto no-repeat;
-  opacity: 1; /* ensures it's fully visible */
+  opacity: 1;
 }
 
 .header-wrapper {
   transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.offcanvas-end {
+  width: 100% !important;
+  max-width: 100% !important;
+  background: black;
+}
+
+.offcanvas-backdrop.show {
+  background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .nav-hidden {
@@ -45,8 +48,12 @@
   pointer-events: none;
 }
 
-.nav-visible {
+/* .nav-visible {
   transform: translateY(0);
   opacity: 1;
   pointer-events: auto;
+} */
+
+.offcanvas-body {
+  overflow-y: visible;
 }

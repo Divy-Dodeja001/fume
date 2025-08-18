@@ -20,6 +20,7 @@ import mobileRestaurant from "../../public/mobileRestaurant.jpg";
 import Link from "next/link";
 import logo from "../../public/logo.png";
 import Header from "./components/Header";
+import WhatsAppBot from "./components/WhatsAppBot";
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function Home() {
     <>
       {/* hero banner */}
       <Header />
+      <WhatsAppBot />
       <div id="hero-section" className="position-relative">
         <picture>
           <source
@@ -79,17 +81,17 @@ export default function Home() {
           </div>
         </div>
         <div className="position-absolute hero-description px-lg-5 px-3">
-          <div className="mb-3">
+          <div className="mb-3 d-flex d-md-block justify-content-center">
             <Link href={"/"} className="">
               <Image src={logo} width="137" height="60" alt="fume-logo" />
             </Link>
           </div>
           <br></br>
-          <h1 className="text-light mb-4 heading-font">Savour the Night</h1>
+          <h1 className="text-light mb-4 heading-font">Savour The Night</h1>
           <p className="text-light mb-5">
-            Premium shisha, curated cocktails, and unforgettable nights,
+            Premium shisha, curated cocktails and unforgettable nights,{" "}
             <br className="d-md-block d-none"></br>
-            surrounded by deep beats, moody lights, and moments that linger
+            surrounded by deep beats, moody lights, and moments that linger.
           </p>
           <div
             className="d-flex flex-column flex-md-row"
@@ -456,7 +458,7 @@ export default function Home() {
               // type="button"
               className="btn btn-dark rounded-5 px-4 pb-2"
             >
-              Join us tonight
+              Join Us Tonight
             </a>
           </div>
           <div className="col-12 col-md-7">
@@ -484,7 +486,7 @@ export default function Home() {
               Your next favorite hangout is just around the corner.
             </p>
             <a
-              href="https://maps.app.goo.gl/t39tsQgYiB3nZUah7"
+              href="https://maps.app.goo.gl/aHyvpzQ5sqXfZW2P6"
               target="_blank"
               type="button"
               className="btn btn-dark rounded-5 px-4 pb-2"
@@ -494,7 +496,7 @@ export default function Home() {
           </div>
           <div className="col-12 col-md-6">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.1641989568966!2d2.2237456763033956!3d41.41395417129652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a5f3e346330b%3A0xa5dcf969a7b3ce6e!2sFum%C3%A9e%20Shisha%20Lounge%20%26%20Cocktail%20bar%20Barcelona!5e0!3m2!1sen!2sin!4v1755388058637!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.054535026425!2d-9.146825100000001!3d38.7165569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19337eca0bce65%3A0x2fcb5f02b36770cd!2sFume%20Shisha%20%26%20Lounge!5e0!3m2!1sen!2sin!4v1755494696763!5m2!1sen!2sin"
               height="340"
               style={{ border: 0 }}
               className="rounded-4 w-100"
