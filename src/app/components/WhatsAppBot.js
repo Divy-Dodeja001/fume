@@ -4,7 +4,7 @@ const WhatsAppBot = ({ bottom }) => {
   return (
     <>
       <a
-        href="https://wa.me/919156188065?text=Hey!"
+        href="https://wa.me/+351920366185?text=Hey!"
         className="wa-chat-btn-fixed-wrap"
         target="_blank"
       >
